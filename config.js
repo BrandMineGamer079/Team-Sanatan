@@ -4,7 +4,7 @@ module.exports = {
   ownerId: '1052983625425100812,1026512578958077972',
   status: {
     rotateDefault: [
-      { name: `Watching members`, type: ActivityType.Watching },
+      { name: `Watching Brand Mine Gamer Video https://youtube.com/shorts/QXWMlJqLf0Y?si=NpNp9XnYd7s0h0tR`, type: ActivityType.Watching },
     ],
     songStatus: true
   },
