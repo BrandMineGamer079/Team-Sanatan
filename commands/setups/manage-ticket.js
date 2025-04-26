@@ -322,7 +322,7 @@ async function sendTicketEmbed(channel) {
         .setCustomId('select_ticket_type')
         .setPlaceholder('Choose ticket type')
         .addOptions([
-            { label: '<:emoji_1:1365570093718831104> Team Apply', value: 'team apply' },
+            { label: ' :emoji_1~3: Team Apply', value: 'team apply' },
             { label: 'Advertisement', value: 'advertisement' },
             { label: 'General Support', value: 'general support' },
             { label: 'Ally or Merge', value: 'Ally or Merge' }
