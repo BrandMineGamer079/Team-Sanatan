@@ -322,10 +322,10 @@ async function sendTicketEmbed(channel) {
         .setCustomId('select_ticket_type')
         .setPlaceholder('Choose ticket type')
         .addOptions([
-            { label: '🆘 Support', value: 'support' },
-            { label: '📂 Suggestion', value: 'suggestion' },
-            { label: '💜 Feedback', value: 'feedback' },
-            { label: '⚠️ Report', value: 'report' }
+            { label: 'Team Apply', value: 'team apply' },
+            { label: 'Advertisement', value: 'advertisement' },
+            { label: 'General Support', value: 'general support' },
+            { label: 'Ally or Merge', value: 'Ally or Merge' }
         ]);
 
     const row = new ActionRowBuilder().addComponents(menu);
