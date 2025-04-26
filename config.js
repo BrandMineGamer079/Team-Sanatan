@@ -1,10 +1,13 @@
 const { ActivityType } = require('discord.js');
 
 module.exports = {
-  ownerId: '1052983625425100812,1026512578958077972',
+  ownerId: '1052983625425100812',
   status: {
     rotateDefault: [
-      { name: `Watching Brand Mine Gamer Video https://youtube.com/shorts/QXWMlJqLf0Y?si=NpNp9XnYd7s0h0tR`, type: ActivityType.Watching },
+      { name: 'Netflix', type: ActivityType.Watching },
+      { name: 'GTA VI', type: ActivityType.Playing },
+      { name: 'on YouTube', type: ActivityType.Streaming, url: 'https://www.twitch.tv/glaceytt' },
+      { name: 'Spotify', type: ActivityType.Listening },
     ],
     songStatus: true
   },
