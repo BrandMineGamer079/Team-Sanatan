@@ -9,8 +9,8 @@
 /_______  /\___|_  /|___|  \___/\____|__  / 
         \/       \/                     \/  
                     
-DISCORD :  https://discord.com/invite/xQF9f9yUEM                   
-YouTube : https://www.youtube.com/@GlaceYT                         
+DISCORD :  https://discord.gg/qAEAqkgaN2                   
+YouTube : https://www.youtube.com/@brandminegamer7                         
 
 Command Verified : ✓  
 Website        : ssrr.tech  
