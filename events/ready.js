@@ -95,7 +95,7 @@ module.exports = {
             const next = config.status.rotateDefault[defaultIndex % config.status.rotateDefault.length];
             client.user.setPresence({
                 activities: [next],
-                status: next.type === ActivityType.Streaming ? undefined : 'online'
+                status: next.type === ActivityType.Watching ? undefined : 'online'
             });
             //console.log(`${colors.cyan}[STATUS]${colors.reset} Using default status: ${next.name}`);
             defaultIndex++;
