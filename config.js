@@ -4,10 +4,7 @@ module.exports = {
   ownerId: '1052983625425100812,1026512578958077972',
   status: {
     rotateDefault: [
-      { name: `Watching ${memberCount} members`, type: ActivityType.Watching },
-      { name: `Watching ${memberCount} members`, type: ActivityType.Watching },
-      { name: `Watching ${memberCount} members`, type: ActivityType.Watching },
-      { name: `Watching ${memberCount} members`, type: ActivityType.Watching },
+      { name: `Watching members`, type: ActivityType.Watching },
     ],
     songStatus: true
   },
