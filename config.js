@@ -1,7 +1,7 @@
 const { ActivityType } = require('discord.js');
 
 module.exports = {
-  ownerId: '1365694026115973191',
+  ownerId: '1026512578958077972',
   status: {
     rotateDefault: [
       { name: 'Netflix', type: ActivityType.Watching },
