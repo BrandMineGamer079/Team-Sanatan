@@ -6,14 +6,13 @@ module.exports = function createWelcomeDMEmbed(member) {
     const avatar = member.user.displayAvatarURL({ dynamic: true });
 
     return new EmbedBuilder()
-        .setTitle(`👋 Welcome to ${serverName}!`)
-        .setDescription(`Hey ${username}, we're thrilled to have you join us!`)
-        .setColor('#00e5ff')
+        .setTitle(`Welcome, ${username}!`)
+        .setDescription(`Glad to have you here at **${serverName}**!`)
+        .setColor('#FFD700') // Gold color for warmth.
         .setThumbnail(avatar)
         .addFields(
-            { name: '📅 Joined', value: new Date().toDateString(), inline: true },
-            { name: '📝 Info', value: 'Explore channels, follow rules, and say hi!' }
+            { name: '📌 Member Count', value: `${member.guild.memberCount}`, inline: true } // Inline field for member count.
         )
-        .setFooter({ text: `${serverName} Community` })
-        .setTimestamp();
+        .setFooter({ text: `Welcome to ${serverName}` }) // Footer for a neat touch.
+        .setTimestamp(); // Automatically includes the current time.
 };
