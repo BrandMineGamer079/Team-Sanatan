@@ -18,7 +18,7 @@
         "core" :true,
         "lavalink": true,
         "fun": true,
-        "distube": true,
+        "distube": false,
         "setups": true
     }
 }
